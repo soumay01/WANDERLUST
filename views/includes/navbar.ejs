@@ -1,0 +1,54 @@
+ <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top custom-navbar">
+
+  <div class="container-fluid">
+      <a class="navbar-brand luxury-logo" href="/listings">
+         <span class="logo-wander"><b>Wander</b></span><span class="logo-lust"><b>Lust</b></span>
+      </a>
+
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNavAltMarkup" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        
+        <a class="nav-link home-link nav-home" href="/listings">
+          <i class="fa-solid fa-house"></i></a>  
+      </div>
+
+      <div class="navbar-nav ms-auto">
+        <form class="navbar-search d-flex" action="/listings/search" method="GET" role="search">
+          <input 
+            class="form-control me-2 search-input" 
+            type="search" 
+            name="q"
+            placeholder="Search destinations" 
+            required >
+          <button class="btn search-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>Search
+          </button>
+        </form>
+      </div>
+
+       <div class="navbar-nav ms-auto">
+        <a class="nav-link colour-3 nav-air" href="/listings/new">WanderLust your home</a>
+        <% if(!currUser) { %>
+        <a class="nav-link colour-1 nav-sign" aria-current="page" href="/signup"><b>Sign Up</b></a>
+        <a class="nav-link colour-2 nav-log" href="/login"><b>Log in</b></a>
+        <% } %> <% if(currUser) { %>
+        <a class="nav-link colour-2 nav-out" href="/logout"><b>Log out</b></a>
+        <% } %> 
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
