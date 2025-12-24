@@ -6,10 +6,6 @@
 
 **Live Project:** https://wanderlust-tx4p.onrender.com
 
-![Wanderlust Logo](./public/images/WanderLust.png)
-
----
-
 ## 🚀 Features
 
 - **User Authentication:** Signup/Login system for secure access.
