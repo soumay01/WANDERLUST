@@ -2,6 +2,10 @@
 
 **Wanderlust** is a modern, full-stack travel listing application built with **Node.js, Express, MongoDB, and EJS**. It allows users to explore, create, and review travel destinations seamlessly. Designed with clean UI/UX and a modular architecture, it’s perfect for travel enthusiasts and a strong portfolio project.  
 
+## 🌐 Live project Link
+
+**Live Project:** https://wanderlust-tx4p.onrender.com
+
 ![Wanderlust Logo](./public/images/WanderLust.png)
 
 ---
